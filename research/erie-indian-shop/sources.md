@@ -2,10 +2,26 @@
 
 Every source the research lanes touched, with outcome. **hit** = useful evidence found; **partial** = reached but incomplete; **miss** = searched, nothing relevant; **blocked** = could not be reached from the cloud container (Cloudflare, IP block, login, paywall or outage).
 
-Totals: 36 hit, 22 partial, 32 miss, 26 blocked (116 entries).
+Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
 
 ## HIT
 
+- **archive.org 1920 census microfilm 14thcensusofpopu1565/1566/1567unit (metadata + BookReaderImages.php images)** — [https://archive.org/details/14thcensusofpopu1567unit](https://archive.org/details/14thcensusofpopu1567unit)  
+  The ED ranges are in the metadata. IIIF returns 404 for these items, so I used BookReaderImages.php. Reel 1567: all of Millcreek EDs 128-132 scanned, Louis/Frank/Rosa at leaf 623. Reel 1566: Edward at leaf 477. _(lane: census-followup)_
+- **Steve Morse unified 1940 ED finder + getxml** — [https://stevemorse.org/census/unified.php?year=1940&state=PA&city=ER&street1=11th&street2=](https://stevemorse.org/census/unified.php?year=1940&state=PA&city=ER&street1=11th&street2=German)  
+  11th x German = EDs 68-31A (images 03647-00701..00720) and 68-31B (00721..00736). _(lane: census-followup)_
+- **NARA 1940 census media server** — [https://catalog.archives.gov/medialz/census-1940/T627/PA/m-t0627-03647/m-t0627-03647-00707](https://catalog.archives.gov/medialz/census-1940/T627/PA/m-t0627-03647/m-t0627-03647-00707.jpg)  
+  All 36 images of 68-31A/B fetched, plus roll 3651 image 00044 (Lewis). _(lane: census-followup)_
+- **Ancestry.com public search-results pages (no login) - 1920 (coll 6061) and 1940 (coll 2442)** — [https://www.ancestry.com/search/collections/6061?name=_Bayhurst&name_x=_1&residence=_penns](https://www.ancestry.com/search/collections/6061?name=_Bayhurst&name_x=_1&residence=_pennsylvania-usa_41)  
+  Index only, with names, ward/county and image IDs visible in the page JSON. 1920: 10 Bayhursts in PA, no Charles. 1940: 37 entries, including Lewis (03651-00044). I stopped broader Charles B* paging (6,170 results) to avoid scraping. _(lane: census-followup)_
+- **Penn State CONTENTdm behrend (Hammermill Bond) API/dmQuery/IIIF** — [https://digital.libraries.psu.edu/digital/api/search/collection/behrend/searchterm/bayhurs](https://digital.libraries.psu.edu/digital/api/search/collection/behrend/searchterm/bayhurst/maxRecords/100)  
+  Mar 1930 heading verified, and the May 1936 ten-year pin list verified without Bayhurst. Sep 1930-Nov 1933 not digitized. One IIIF 502 error on the first try; the retry worked. _(lane: census-followup)_
+- **LOC Erie phone books 8/1948-Fall 1951 (reel usteledirec07591): OCR JSON plus page images** — [https://www.loc.gov/item/usteledirec07591/](https://www.loc.gov/item/usteledirec07591/)  
+  New reel. Indian Motorcycle Sales & Service / Indian Motorcycle Agency, A. Louis Straus, 1315 Peach St, in the 1948 and 1949 books (image-verified); gone in 1950 and 1951 (image). _(lane: dealer-lists)_
+- **LOC Erie phone books 7/1952-7/1957 (reel usteledirec07592)** — [https://www.loc.gov/item/usteledirec07592/](https://www.loc.gov/item/usteledirec07592/)  
+  Motorcycles = Harley only (John Menzel Prop) in 1952, 1953 and 1955 (15% images); 1957 OCR only. _(lane: dealer-lists)_
+- **LOC Erie phone books 7/1958-7/1960 (reel usteledirec07593)** — [https://www.loc.gov/item/usteledirec07593/](https://www.loc.gov/item/usteledirec07593/)  
+  OCR: Harley at 3001 Glenwood Pk av; Starvaggi's Garage (BSA etc.) at 3417 Peach; no Indian; nothing on E 10th. _(lane: dealer-lists)_
 - **LDSgenealogy.com Erie County PA City Directories index** — [https://ldsgenealogy.com/PA/Erie-County-City-Directories.htm](https://ldsgenealogy.com/PA/Erie-County-City-Directories.htm)  
   Lists which Erie directory years are on Ancestry (every year 1915-1943), MyHeritage (13 interwar years), ACPL (1901-1943) and FamilySearch catalog IDs 541218, 148168, 534727. _(lane: directories)_
 - **FamilySearch Wiki, Erie County PA Genealogy** — [https://www.familysearch.org/en/wiki/Erie_County,_Pennsylvania_Genealogy](https://www.familysearch.org/en/wiki/Erie_County,_Pennsylvania_Genealogy)  
@@ -70,6 +86,18 @@ Totals: 36 hit, 22 partial, 32 miss, 26 blocked (116 entries).
   Parents Lewis J. and Elma H. Fisk Bayhurst; list of deceased brothers. _(lane: people-bayhurst)_
 - **Archive.org 1943 Erie Technical HS yearbook text** — [https://archive.org/download/classmates-yearbook-53401-1943-erie-technical-thru-1959-high-](https://archive.org/download/classmates-yearbook-53401-1943-erie-technical-thru-1959-high-school/53401_djvu.txt)  
   'Pattern Making ... Bayhurst, Charles' = son Charles W. _(lane: people-bayhurst)_
+- **LOC Sanborn Erie 1921-Aug 1950 Vol.1 sheet 59 (full-res IIIF)** — [https://www.loc.gov/resource/g3824em.g3824em_g07660195001/?sp=63](https://www.loc.gov/resource/g3824em.g3824em_g07660195001/?sp=63)  
+  Through-block geometry, junction close-up, scale bar, E 10th labels both sides. IIIF id found via WebFetch JSON. _(lane: through-block)_
+- **LOC Sanborn Erie 1921 Vol.1 sheet 59 (full-res IIIF)** — [https://www.loc.gov/resource/g3824em.g3824em_g07660192101/?sp=61](https://www.loc.gov/resource/g3824em.g3824em_g07660192101/?sp=61)  
+  Mid-block rear lot line; vacant 106-122 E 11th; E 10th labels (WICKER SHOP at 120). _(lane: through-block)_
+- **LOC Sanborn Erie 1921 Vol.1 index sheet KEY legend** — [https://tile.loc.gov/image-services/iiif/service:gmd:gmd382m:g3824m:g3824em:g3824em_g07660](https://tile.loc.gov/image-services/iiif/service:gmd:gmd382m:g3824m:g3824em:g3824em_g07660192101:07660_01_1921-0000/4950,4300,1400,3300/full/0/default.jpg)  
+  Symbols for fire walls, openings, windows. _(lane: through-block)_
+- **LOC Sanborn Erie 1921 and 1921-1950 Vol.1 sheets 3, 60, 61, 62 (E 10th bands)** — [https://tile.loc.gov/image-services/iiif/service:gmd:gmd382m:g3824m:g3824em:g3824em_g07660](https://tile.loc.gov/image-services/iiif/service:gmd:gmd382m:g3824m:g3824em:g3824em_g07660192101:07660_01_1921-0060/info.json (and 0003/0061/0062; 1950 equivalents))  
+  No cycle label on E 10th lots. Found 1921 'Bicycle Repairing' at 1015 Parade. Tile server returned 503 four times; each succeeded on retry after a pause. _(lane: through-block)_
+- **LOC Erie phone-book page images (tile.loc.gov IIIF)** — [https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=561](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=561)  
+  Viewed seq291, 306, 460, 561, 580, 681, 749, 768, 854, 875 (reel 07589) and seq692 (reel 07590). _(lane: through-block)_
+- **loc.gov resource JSON via WebFetch** — [https://www.loc.gov/resource/g3824em.g3824em_g07660195001/?sp=63&fo=json](https://www.loc.gov/resource/g3824em.g3824em_g07660195001/?sp=63&fo=json)  
+  Used only to get IIIF ids for sheet 59 (1950 sp=63, 1921 sp=61). _(lane: through-block)_
 - **archive.org item motorcycleillustrated (Crittenden Automotive Library; MI 1905a,1908,1909a,1912a,1912b,1913a,1914a,1915b,1916a,1916b,1917a,1917c,1922b,1922c,1922d)** — [https://archive.org/details/motorcycleillustrated](https://archive.org/details/motorcycleillustrated)  
   Downloaded all 15 djvu.txt files and grepped them. Page images via BookReaderImages.php (works). Main source for LeJeal 1908/1917, Beckman 1922, Anderson 1917, Erie M.C. 1917. There is no 1918-1921 or 1923+ volume in this item. _(lane: trade-press)_
 - **archive.org Bicycling World and Motorcycle Review 1908-1912 (bicycli58261908201909newy, bicyclingwo5927181909newy, bicyc60251909191910newy, bicyc6126171910newy, bicyclingwo6325161911newy, bicyc6224191081911newy, bicycli64231911161912newy)** — [https://archive.org/details/bicycli64231911161912newy](https://archive.org/details/bicycli64231911161912newy)  
@@ -81,6 +109,12 @@ Totals: 36 hit, 22 partial, 32 miss, 26 blocked (116 entries).
 
 ## PARTIAL
 
+- **NARA catalog proxy search** — [https://catalog.archives.gov/proxy/records/search?q=Bayhurst&limit=100&levelOfDescription=](https://catalog.archives.gov/proxy/records/search?q=Bayhurst&limit=100&levelOfDescription=fileUnit)  
+  Works again (JSON). It gave only the known draft-card file unit; there is no 1920 or 1940 index text for Lewis. _(lane: census-followup)_
+- **AMCA forum: 'CAIMAG website' thread and guest search** — [https://forum.antiquemotorcycle.org/bboard/forum/general-amca-forum/parking-lot-chatter/23](https://forum.antiquemotorcycle.org/bboard/forum/general-amca-forum/parking-lot-chatter/23629-caimag-website)  
+  Confirms CAIMAG offline in 2020; last Wayback copy Feb 2020. Guest search 'Straus Erie' and 'Erie Indian dealer' = 0 results. _(lane: dealer-lists)_
+- **Google Books GData feed (tools/gbfeed.py)** — [https://www.google.com/books/feeds/volumes?q=%22Indian+Motorcycle+Sales%22+Erie](https://www.google.com/books/feeds/volumes?q=%22Indian+Motorcycle+Sales%22+Erie)  
+  About 10 queries worked (American Motorcyclist 1955-63: Erie = H-D only). Then 'Internal error - please retry later' on 5 tries (Straus queries). _(lane: dealer-lists)_
 - **The Ancestor Hunt - free online PA city directories** — [https://theancestorhunt.com/blog/free-online-pennsylvania-city-directories/](https://theancestorhunt.com/blog/free-online-pennsylvania-city-directories/)  
   Free Erie items are the LOC phone books, DPLA 'Erie Directory, 19-', HathiTrust 1982+ Polk, and the 1918 PSU farm directory. Nothing for 1915-1938. _(lane: directories)_
 - **Hagen History Center research page** — [https://www.hagenhistory.org/research](https://www.hagenhistory.org/research)  
@@ -128,6 +162,22 @@ Totals: 36 hit, 22 partial, 32 miss, 26 blocked (116 entries).
 
 ## MISS
 
+- **Steve Morse ED descriptions (ed2.php) for 1920 Erie** — [https://stevemorse.org/ed/ed2.php?year=1920&state=PA&county=Erie](https://stevemorse.org/ed/ed2.php?year=1920&state=PA&county=Erie)  
+  Every query returned 'NOTHING FOUND' (4 tries). unifiedstreets2 has no 1920 street data for Erie. _(lane: census-followup)_
+- **Google Books GData feed (tools/gbfeed.py)** — [https://www.google.com/books/feeds/volumes?q=Bayhurst+%22120+E%22](https://www.google.com/books/feeds/volumes?q=Bayhurst+%22120+E%22)  
+  Nothing linking Bayhurst to 120 E 11th. Two 'Internal error' responses; one retry succeeded. _(lane: census-followup)_
+- **archive.org full-text search (tools/iafts.py)** — [https://archive.org/services/search/beta/page_production/?service_backend=fts&user_query=%](https://archive.org/services/search/beta/page_production/?service_backend=fts&user_query=%22120%20E.%2011th%22%20Erie)  
+  All hits were Gary IN directories or noise. Two queries returned null (API error). _(lane: census-followup)_
+- **WebSearch '"Bayhurst" 1920 census Erie'** — [https://www.google.com/search?q=%22Bayhurst%22+1920+census+Erie](https://www.google.com/search?q=%22Bayhurst%22+1920+census+Erie)  
+  Only generic census guides. _(lane: census-followup)_
+- **Common Crawl CDX via data.commoncrawl.org (cluster.idx binary search, ccsearch.py)** — [https://data.commoncrawl.org/cc-index/collections/](https://data.commoncrawl.org/cc-index/collections/)  
+  oldindiandealers.com: 0 captures in 36 crawls from 2008 to 2020. Method validated on antiquemotorcycle.org. _(lane: dealer-lists)_
+- **Common Crawl captures of caimag.com** — [https://data.commoncrawl.org/cc-index/collections/CC-MAIN-2019-13/indexes/cluster.idx](https://data.commoncrawl.org/cc-index/collections/CC-MAIN-2019-13/indexes/cluster.idx)  
+  7 crawls checked: 331 to 2,793 captures each, 1,123 distinct thread URLs, no dealer-history thread. Indian forum f27 listing (Mar 2019) has none. Member SIDECAR = id 5409; his blog page is empty. _(lane: dealer-lists)_
+- **WebSearch: eBay / WorthPoint / general (11 queries)** — [https://www.worthpoint.com/worthopedia/1938-indian-motorcycle-co-dealer-1923128030](https://www.worthpoint.com/worthopedia/1938-indian-motorcycle-co-dealer-1923128030)  
+  Only modern dealers and generic Indian memorabilia. No Erie-marked item for LeJeal, Beckman, Bayhurst, the Indian Motorcycle Agency or Straus. _(lane: dealer-lists)_
+- **Journal of Erie Studies, 'The Early Automobile and its Influence on Erie, Pennsylvania, 1896-1920'** — [https://journals.psu.edu/eriestudies/article/download/74/74/146](https://journals.psu.edu/eriestudies/article/download/74/74/146)  
+  LeJeal/Hagenlocher 1895 car and Roth bicycles; nothing about motorcycle dealers. _(lane: dealer-lists)_
 - **Google Books title scan for Erie directories 1915-1938** — [https://www.google.com/books/feeds/volumes?q=intitle:Erie+intitle:directory](https://www.google.com/books/feeds/volumes?q=intitle:Erie+intitle:directory)  
   The only scanned Erie city directories are 1873, 1939 and 1972+. 'Erie County Directory 1916' (QHrTHAAACAAJ) is metadata only. _(lane: directories)_
 - **archive.org metadata search (title erie + directory)** — [https://archive.org/advancedsearch.php?q=title%3A%28erie%29+AND+title%3A%28directory%29](https://archive.org/advancedsearch.php?q=title%3A%28erie%29+AND+title%3A%28directory%29)  
@@ -195,6 +245,16 @@ Totals: 36 hit, 22 partial, 32 miss, 26 blocked (116 entries).
 
 ## BLOCKED
 
+- **Common Crawl index server (index.commoncrawl.org)** — [https://index.commoncrawl.org/collinfo.json](https://index.commoncrawl.org/collinfo.json)  
+  Connection reset twice; empty reply on CC-MAIN-2014-10-index query. _(lane: dealer-lists)_
+- **CAIMAG forum live (caimag.com/forum)** — [http://www.caimag.com/forum/forum.php](http://www.caimag.com/forum/forum.php)  
+  HTTP 522 twice (site offline since 2020 per AMCA thread 23629). _(lane: dealer-lists)_
+- **indianmotorcycles.net 'List of Indian Dealerships in the United States and Canada' (thread 2610)** — [https://www.indianmotorcycles.net/threads/list-of-indian-dealerships-in-the-united-states-](https://www.indianmotorcycles.net/threads/list-of-indian-dealerships-in-the-united-states-and-canada.2610/)  
+  Proof-of-work bot challenge (202), and WebFetch was redirected to tollbit pay gate. Snippets show it is a modern dealer list anyway. _(lane: dealer-lists)_
+- **chiefmotorcycleforum.com topic 5526 'Indian Motorcycle of Erie Pa.'** — [https://www.chiefmotorcycleforum.com/index.php?topic=5526.0](https://www.chiefmotorcycleforum.com/index.php?topic=5526.0)  
+  Same bot challenge and tollbit redirect. Likely about the modern dealer. _(lane: dealer-lists)_
+- **Jerry Hatfield, Indian Chief Motorcycles 1922-1953 (archive.org indianchiefmotor00hatf)** — [https://archive.org/details/indianchiefmotor00hatf](https://archive.org/details/indianchiefmotor00hatf)  
+  Lending-only; djvu.txt returns 401. FTS 'Erie' hit = a person, Indian News road tester Erie 'Red' Armstrong. _(lane: dealer-lists)_
 - **FamilySearch catalog 541218 (WebFetch) and catalog API** — [https://www.familysearch.org/en/search/catalog/541218](https://www.familysearch.org/en/search/catalog/541218)  
   WebFetch got only a sign-in page; the API /service/search/catalog/item/541218 returned 401. Login required. Not retried. _(lane: directories)_
 - **HathiTrust babel full-text search (1939 Erie directory)** — [https://babel.hathitrust.org/cgi/pt/search?q1=Bayhurst&id=pst.000012006779](https://babel.hathitrust.org/cgi/pt/search?q1=Bayhurst&id=pst.000012006779)  
