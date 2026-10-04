@@ -109,6 +109,29 @@ Full year-by-year list with sources: [erie_motorcycle_businesses_1920-1940.csv](
 
 ---
 
+## 5b. Everything else on Indian motorcycles in Erie (broad sweep, any era)
+
+| When | What | Source (tap) | Confidence |
+|---|---|---|---|
+| 1883–1927 | **Indian's top boss was an Erie native.** Frank John Weschler, born in Erie on 6 Mar 1883, started in 1898/99 at Erie's **Black Manufacturing Co. (Tribune and Blue Streak bicycles)**. He moved to Westfield, Mass. in 1902 when the bicycle trust closed the Erie plant, and joined Hendee Mfg (Indian) in 1906 as sales director. He was clerk in 1909 and treasurer in 1910, became **vice-president and general manager** in 1922 and **president and general manager of the Indian Motocycle Co.** in 1923 | [Motorcycle & Bicycle Illustrated, 10 Aug 1922, p.39 (with portrait)](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922c/page/n305) · [crop](evidence/1922-08-10_motorcycle-bicycle-illustrated_p39_leaf305_weschler-heads-hendee-native-of-erie.png) · [Western Massachusetts: A History (1926), v.4 p.799](https://archive.org/details/westernmassachus04lock/page/n591) · [crop](evidence/1926_western-massachusetts-history-v4_p799_leaf591_frank-j-weschler-born-erie-indian-president.png) | **CONFIRMED** (2 independent page images). The two give different start years (1898 vs 1899) |
+| 1915–1920s | Springfield city directories: "Weschler Frank J sec and treas HMfgCo" (1915), "v pres Hendee Mfg Co" (1923), "pres and gen mgr Indian Motocycle Co" (later edition) | [Springfield directory 1915](https://archive.org/details/springfieldcityd1915spri) · [1923](https://archive.org/details/springfieldwests1923spri) | text (archive.org full text) |
+| 1927 | Weschler resigns from Indian to become president, treasurer and general manager of Baldwin Chain & Mfg Co., Worcester | Iron Age, 19 May 1927 (Google Books snippet, id a11LAQAAIAAJ) | SNIPPET |
+| 1908 | Erie (Le Jeal Cycle Co., 1721 Sassafras) is a checkpoint on B. A. Swenson's Indian record ride, New York–Chicago | [Motorcycle Illustrated, 15 Jul 1908](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1908/page/n265) · [crop](evidence/1908-07-15_motorcycle-illustrated_leaf265_swenson-checkpoint-lejeal-1721-sassafras.png) | image |
+| 1909 | Erie Motorcycle Club meet, 30 Aug 1909: Charles LeJeal on an Indian takes 3rd in the twin mile and wins the 5-mile handicap | [Bicycling World, 11 Sep 1909](https://archive.org/details/bicyclingwo5927181909newy/page/n1007) · [crop](evidence/1909-09-11_bicycling-world-motorcycle-review_p929_leaf1007_erie-mc-meet-lejeal-indian.png) | image |
+| 1911 | The Le Jeal (Indian) and Thor agents each placed a machine with the Erie police department | New American Motorcyclist and Bicyclist 1911 (Google Books snippet, id XyNaAAAAYAAJ) | SNIPPET |
+| 1912 | Erie's first auto and motorcycle show: LeJeal's Indian exhibit was the largest (booth photo) | [Bicycling World, 9 Mar 1912](https://archive.org/details/bicycli64231911161912newy/page/n1286) · [photo](evidence/1912-03-09_bicycling-world-motorcycle-review_p1215_leaf1287_lejeal-indian-booth-photo.png) | image |
+| 1916 | **Erie police department orders two Indian motorcycles** | [Motorcycle Illustrated, 13 Apr 1916, p.13](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1916a/page/n957) · [crop](evidence/1916-04-13_motorcycle-illustrated_p13_leaf957_erie-police-two-indians.png) | image. Contradicts a police-history website's claim (seen in a search summary only) that Erie's motor unit "has always ridden Harley-Davidson" |
+| 1917 | LeJeal builds an Indian Powerplus motor sled (photo) | [Motorcycle Illustrated, 11 Jan 1917](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1917a/page/n75) · [crop](evidence/1917-01-11_motorcycle-illustrated_p19_leaf75_lejeal-hendee-representative.png) | image |
+| 1920 | Sanctioned motorcycle race meet on the Erie Exposition grounds half-mile track ("Erie Exposition Association, promoters"). Not an Indian club: the "Indian Motorcycle Club" in the same list is Hammond, Ind. | Motorcycle Illustrated 1920 (Google Books snippet, id LnsAAAAAMAAJ) | SNIPPET |
+| 1922 | Archie Beckman opens the Indian agency at 1807 Parade St (see §3) | [crop](evidence/1922-12-07_motorcycle-bicycle-illustrated_p21_leaf373_beckman-1807-parade.png) | image |
+| 1935–39 | Indian Motorcycle Agency, 120 then 302 E 11th St; Charles A. Bayhurst (see §1–4) | see above | image |
+| 1938–1947 | No Indian dealer in any Erie phone book; only Harley-Davidson, 114 E 11th | [crop](evidence/1941-1947_loc-erie-phonebook-yellow_reel07590_motorcycles-blocks.png) | image |
+| Today | **Indian Motorcycle of Erie**, at Off-Road Express, 10320 Wattsburg Rd, Erie (814-825-2396). A 2014 Indian Riders Group chapter, "Great Lake Gypsies Chapter 1901", was sponsored by this dealer | [Indian dealer directory](https://www.indianmotorcycle.com/en-us/dealer-directory/pennsylvania/erie/) · [Facebook](https://www.facebook.com/indianmotorcycleoferie/) · [Yelp](https://www.yelp.com/biz/off-road-express-erie) | web search summaries only (the dealer sites block this server) |
+
+Not reachable from here: an IndianMotorcycles.net thread "[Anyone Know About Indian Dealer In Erie, PA?](https://www.indianmotorcycles.net/threads/anyone-know-about-indian-dealer-in-erie-pa.1288/)" and a ChiefMotorcycleForum thread "[Indian Motorcycle of Erie Pa.](https://www.chiefmotorcycleforum.com/index.php?topic=5526.0)". Both sit behind a pay-per-crawl gate (HTTP 402) for bots. Open them on your phone.
+
+---
+
 ## 6. Photos
 
 - **No photo of the Bayhurst / Indian Motorcycle Agency shop was found** (searched: trade press, about 60 yearbooks, Old Time Erie blog, AMCA forum, web, eBay and WorthPoint leads).

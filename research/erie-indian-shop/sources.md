@@ -265,3 +265,16 @@ Totals: 36 hit, 22 partial, 32 miss, 26 blocked (116 entries).
 - **AMCA forum thread "Old Dealers web sites?"** — reachable (200); pages 1-5 read by the local-history lane: no Erie entry.
 - **Gemini Deep Research (optional lead generator)** — **not run**: needs the NUC agent-desktop browser and a fresh AUTH_OK; NUC offline.
 - **Flight Recorder / Brain changelogs** — **not available** (NUC offline). This file is the run log.
+
+## BROAD SWEEP "anything Indian motorcycle in Erie" (orchestrator, 4 Oct 2026)
+
+- **Motorcycle & Bicycle Illustrated, 10 Aug 1922, p.39** — [archive.org leaf 305](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922c/page/n305) — **hit**: "Frank J. Weschler Heads Hendee Co.", "in his native town of Erie, Pa." (image).
+- **Western Massachusetts: A History 1636-1925, v.4 (1926), p.799** — [archive.org leaf 591](https://archive.org/details/westernmassachus04lock/page/n591) — **hit**: Weschler born Erie 6 Mar 1883; Indian president 1923 (image).
+- **Springfield, MA city directories 1915, 1923 (archive.org full text)** — [1915](https://archive.org/details/springfieldcityd1915spri) · [1923](https://archive.org/details/springfieldwests1923spri) — **hit**: Weschler's Hendee/Indian offices (text).
+- **Google Books feed: Weschler / Erie / Indian** — **hit** (snippets): Iron Age 1927 (resigned to Baldwin Chain), Iron Trade Review 1927, History of Massachusetts Industries 1930, Reed 1925 (a Weschler brother in Erie).
+- **Google Books feed: Erie race meet 1920** — **partial**: "Erie, Pa., race meet at Exposition grounds half-mile track. Erie Exposition Association, promoters" (snippet; the "Indian Motorcycle Club" in that list is Hammond, Ind.).
+- **Google Books feed: post-war Erie Indian dealer, clubs, hill climbs** — **miss** (only club calendars and modern listings); the feed began returning "Internal error" (rate limit), so searching stopped.
+- **WebSearch: modern Erie Indian dealer** — **hit** (summaries): Indian Motorcycle of Erie / Off-Road Express, 10320 Wattsburg Rd, 814-825-2396; Great Lake Gypsies Chapter 1901 (2014).
+- **indianmotorcycle.com dealer directory, offroaderie.com** — **blocked** (403 to curl and WebFetch).
+- **indianmotorcycles.net thread "Anyone Know About Indian Dealer In Erie, PA?", chiefmotorcycleforum.com topic 5526** — **blocked** (JS check, then TollBit pay-per-crawl, HTTP 402; not paid).
+- **policemotorunits.com Erie PA page** — **blocked** (DNS failure for WebFetch, timeout for curl). Its claim that Erie police "always" rode Harley-Davidsons (from the search summary) is contradicted by Motorcycle Illustrated, 13 Apr 1916 ("ordering two Indians", image).
