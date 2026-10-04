@@ -1,8 +1,7 @@
 # The Indian motorcycle shop on "East 10th Street", Erie PA — research report
 
-**Status: near-final (v2).** Round 1 used 6 research lanes. Round 2 added 4 follow-up searches and 3 independent
-verifiers that re-fetched every page image and tried to refute each claim. 5 of the 7 round-2 checks are complete. Still
-running: the 1923–34 dealer-gap search (its log so far is merged here) and the trade-press verifier.
+**Status: FINAL (v3).** Round 1 used 6 research lanes plus a critic. Round 2 added 4 follow-up searches and 3 independent
+verifiers that re-fetched every page image and tried to refute each claim. **66 image-checked claims: 0 refuted, 22 reworded.**
 Research date: 4 Oct 2026. Run from a cloud container (the NUC was offline): no logged-in browser and no paid sources.
 
 ---
@@ -42,7 +41,12 @@ On the 1950 map the 11th Street buildings end at the mid-block line, and the 117
 **No building runs through, and no opening is drawn** (Sanborn maps don't always show ordinary doors).
 
 **Still open:** the Erie Indian dealer for **1923–1934** is unknown, so a 1920s East 10th shop can't be ruled out completely.
-That needs the 1920s city directories (manual step 2).
+Every free source has been tried: no 1923–40 US motorcycle trade journal is on archive.org, and the only one on Google Books
+(American Motorcyclist & Bicyclist, 1928; 29 in-volume searches) names no Erie Indian dealer. It needs the 1920s city
+directories (manual step 1).
+
+**One later East 10th motorcycle link** (outside the period, snippet only): a motorcycle **club**, the Erie Wolverine MC, at
+2030 E 10th St in 1964–65 (American Motorcyclist listings). It was a club, not a shop.
 
 ---
 
@@ -50,8 +54,8 @@ That needs the 1920s city directories (manual step 2).
 
 | Years | Dealer | Address | Source | Confidence |
 |---|---|---|---|---|
-| ~1908–1922 | **LeJeal Cycle Works** / LeJeal Cycle & Mobile Works (Charles H. LeJeal) | 1721–23 Sassafras St ("18th & Sassafras") | [1908](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1908/page/n265), [1912 show](https://archive.org/details/bicycli64231911161912newy/page/n1286), [1917 "local Hendee representative"](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1917a/page/n75), [Reed 1925](https://archive.org/details/historyoferiecou02reed/page/857) | image |
-| Nov 1922 – ? | **A. D. "Archie" Beckman** — new Indian agency | 1807 Parade St | [M&B Illustrated, 23 Nov](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922d/page/n292) and [7 Dec 1922](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922d/page/n373) | image |
+| ~1908–1922 | **LeJeal Cycle Works** / LeJeal Cycle & Mobile Works (Charles H. LeJeal) | 1721–23 Sassafras St ("18th & Sassafras") | [1908](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1908/page/n265), [1912 show](https://archive.org/details/bicycli64231911161912newy/page/n1283), [1917 "local Hendee representative"](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1917a/page/n75), [Reed 1925](https://archive.org/details/historyoferiecou02reed/page/857) | image |
+| Nov 1922 – ? | **A. D. "Archie" Beckman** — new Indian agency (by Jul 1934 he had only a home phone; the 1939 directory lists him as a clerk at Schaffner Bros, snippet) | 1807 Parade St | [M&B Illustrated, 23 Nov](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922d/page/n292) and [7 Dec 1922](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922d/page/n373) | image |
 | 1923–1934 | **Unknown** | — | no Erie directory or phone book reachable for these years | GAP |
 | Jul 1935 – Jul 1936 | **Indian Motorcycle Agency** (operator not named) | 120 E 11th St | [phone book seq293](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=293) | image |
 | Jul 1937 – Aug 1939 | **Indian Motorcycle Agency / Charles A. Bayhurst** | 302 E 11th St | [phone book seq554](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=554), [seq542](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=542); 1939 directory p.77 | image, **confirmed** |
@@ -66,13 +70,13 @@ That needs the 1920s city directories (manual step 2).
 
 | When | What | Source | Confidence |
 |---|---|---|---|
-| 1883 | **Frank J. Weschler born in Erie** (6 Mar). Starts in 1898/99 at Erie's **Black Mfg Co. (Tribune and Blue Streak bicycles)**. Joins Indian in 1906; **general manager 1922, president of the Indian Motocycle Co. 1923**; leaves in 1927 | [M&B Illustrated, 10 Aug 1922, p.39](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922c/page/n305) · [crop](evidence/1922-08-10_motorcycle-bicycle-illustrated_p39_leaf305_weschler-heads-hendee-native-of-erie.png); [Western Massachusetts 1926, v.4 p.799](https://archive.org/details/westernmassachus04lock/page/n591) · [crop](evidence/1926_western-massachusetts-history-v4_p799_leaf591_frank-j-weschler-born-erie-indian-president.png) | **CONFIRMED** (2 images) |
+| 1883 | **Frank J. Weschler born in Erie** (6 Mar). Starts in 1898/99 at Erie's **Black Mfg Co. (Tribune and Blue Streak bicycles)**. Joins Indian in 1906; **general manager 1922, president of the Indian Motocycle Co. 1923**; leaves in 1927 | [M&B Illustrated, 10 Aug 1922, p.39](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922c/page/n305) · [crop](evidence/1922-08-10_motorcycle-bicycle-illustrated_p39_leaf305_weschler-heads-hendee-native-of-erie.png); [Western Massachusetts 1926, v.4 p.799](https://archive.org/details/westernmassachus04lock/page/799) · [crop](evidence/1926_western-massachusetts-history-v4_p799_leaf591_frank-j-weschler-born-erie-indian-president.png) | **CONFIRMED** (2 images) |
 | 1894 | LeJeal Cycle & Mobile Works founded | [Miller 1909, p.706](https://archive.org/details/twentiethcentury01mill/page/706) | image |
 | 1908 | Le Jeal Cycle Co., 1721 Sassafras = Erie checkpoint on an Indian record ride | [MI 15 Jul 1908](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1908/page/n265) | image |
-| 1909 | Charles LeJeal races an Indian at the Erie Motorcycle Club meet (30 Aug) | [Bicycling World 11 Sep 1909](https://archive.org/details/bicyclingwo5927181909newy/page/n1007) | image |
+| 1909 | Charles LeJeal races an Indian at the Erie Motorcycle Club meet (30 Aug) | [Bicycling World 11 Sep 1909](https://archive.org/details/bicyclingwo5927181909newy/page/n1006) | image |
 | 1910 | Bayhurst family farming in Mill Creek Twp (Charles, 10) | [1910 census](https://catalog.archives.gov/medialz/microfilm-publications/T624-1910_Census/0001/T624_1343/T624_1343/images/0556.jpg) | image |
 | 1911 | Le Jeal (Indian) and Thor agents each lend a machine to the Erie police | New American Motorcyclist 1911 (Google Books snippet) | SNIPPET |
-| Mar 1912 | Erie's first motor show: LeJeal's Indian exhibit the largest ([booth photo](evidence/1912-03-09_bicycling-world-motorcycle-review_p1215_leaf1287_lejeal-indian-booth-photo.png)) | [Bicycling World 9 Mar 1912](https://archive.org/details/bicycli64231911161912newy/page/n1286) | image |
+| Mar 1912 | Erie's first motor show: LeJeal's Indian exhibit the largest ([booth photo](evidence/1912-03-09_bicycling-world-motorcycle-review_p1215_leaf1287_lejeal-indian-booth-photo.png)) | [Bicycling World 9 Mar 1912](https://archive.org/details/bicycli64231911161912newy/page/n1283) | image |
 | Apr 1916 | **"MOUNTING THE ERIE COPS": Erie police order two Indians** | [MI 13 Apr 1916, p.13](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1916a/page/n957) · [full page](evidence/1916-04-13_motorcycle-illustrated_p13_leaf957_FULLPAGE_mounting-the-erie-cops.png) | image |
 | Jan 1917 | LeJeal's Indian Powerplus motor sled ([photo](evidence/1917-01-11_motorcycle-illustrated_p19_leaf75_lejeal-hendee-representative.png)) | [MI 11 Jan 1917](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1917a/page/n75) | image |
 | **4 Jul 1919** | **Erie Cycle Dealers' Association meet, Exposition Park, Erie: "Five-mile (motorcycle) — Won by Charles Bayhurst; second, Charles Schroeder. Time, 7:13 3/5."** (published about 17 Jul 1919) | Motorcycle & Bicycle Illustrated v.15, p.40 (Google Books page crops) · [crop](evidence/1919-07-17_motorcycle-bicycle-illustrated_v15_p40_RA2-PA40_erie-july4-exposition-park-ecda-meet-bayhurst-wins-5mile-motorcycle_gbsnippets_composite.png) | image (small crops). Same man as the dealer: name + city match |
@@ -113,7 +117,7 @@ That needs the 1920s city directories (manual step 2).
 Full list with sources: [erie_motorcycle_businesses_1920-1940.csv](erie_motorcycle_businesses_1920-1940.csv).
 - **Harley-Davidson:**
   - Anderson Cycle Works, 540/546 W 18th (1912–17; [store photo](evidence/1917-03-29_motorcycle-illustrated_p23_leaf627_anderson-cycle-works-store.png))
-  - W. M. Furlong (1923)
+  - Mr. Furlong, Harley dealer (Enthusiast No. 64, Sept 1923)
   - Lester Shannon, Gypsy Tour captain (1928, "941 E 11th" as printed)
   - **Harley-Davidson Motorcycle Agency, 114 E 11th**: every LOC-filmed phone book 1934–1960 (images to 1955, text after). H. Edw. Kuivinen in 1939; John Menzel from 1952. The 1950 Sanborn map labels it "MOTOR CYCLE SHOP".
 - **1912 show, other makes:** Thor (M. A. Reinholtz, 1717 Sassafras), Pierce, Excelsior and Flanders, Iver-Johnson. Reading-Standard (Erie Motor Sales Co., 1915).
@@ -148,7 +152,7 @@ Full list with sources: [erie_motorcycle_businesses_1920-1940.csv](erie_motorcyc
 
 ## 9. Corrections made by the independent verifiers
 
-The verifiers re-fetched every page image. **0 of 38 phone-book and people claims were refuted.** 14 were reworded:
+The verifiers re-fetched every page image. **0 of 66 claims were refuted** (27 phone-book, 11 people, 28 trade-press/history/maps). 22 were reworded:
 - "No Indian dealer" in a year → **"no Indian listed under Motorcycles"** (a missing listing ≠ a closed shop).
 - "Bayhurst operated the Indian agency" → **"same address and phone as the agency"** (inference, not printed).
 - "Every edition" → **"every LOC-filmed edition"**. The reels lack Jan 1937, Jan 1938, Jul 1939 and other issues.
@@ -158,6 +162,10 @@ The verifiers re-fetched every page image. **0 of 38 phone-book and people claim
 - Hoffman was at 405 W 8th by July 1945.
 - The "Morehouse Garage, 117 E 10th" (1946) is **not** the Moorhouse Motor Co. of 118 E 11th (different spelling and phone).
 - My first reading of the 1920 race snippet was wrong: the "Indian Motorcycle Club" in that sanction list is Hammond, Ind., not Erie.
+- Beckman's club presidency is "the past three years" as of Dec 1922 (c.1920–22). Schroeder was "installed in the service department", not put in charge of it.
+- The Harley-Davidson Enthusiast with Mr. Furlong is No. 64, September 1923 (the trip was June 1923).
+- Three archive.org links opened one page off (some scanned leaves are hidden in the viewer). They are fixed here: 1912 show → /page/n1283, 1909 meet → /page/n1006, Western Massachusetts → /page/799.
+- 1950 Sanborn: "no building **labelled** as a motorcycle shop on E 10th". Several stores carry no trade label, and a 1950 map says nothing about 1920s–30s tenants.
 
 Several evidence crops are **stitched composites** (a page-header strip placed above the listing). Each part is unaltered.
 

@@ -2,7 +2,7 @@
 
 Every source the research lanes touched, with outcome. **hit** = useful evidence found; **partial** = reached but incomplete; **miss** = searched, nothing relevant; **blocked** = could not be reached from the cloud container (Cloudflare, IP block, login, paywall or outage).
 
-Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
+Totals: 52 hit, 27 partial, 45 miss, 32 blocked (156 entries).
 
 ## HIT
 
@@ -38,6 +38,10 @@ Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
   Charles Arthur Bayhurst 1899-1978 and Theresa I. 1901-1983, same lot; Lewis J. 1894-1948; Louis 1863-1918; Louise 1862-1916. _(lane: directories)_
 - **LOC Erie phone-book OCR (local work/loc/*.json) used to cross-check** — [https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=759](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=759)  
   Haft's Garage at 124 E 11th first appears Jan 1939 (seq759), supporting the 1939 date of the GB volume. Kuivinen is not named in any phone-book OCR. _(lane: directories)_
+- **Google Books Motorcycle Illustrated 1919 Jul-Sep (XXsAAAAAMAAJ), snippet images** — [https://books.google.com/books?id=XXsAAAAAMAAJ&q=Bayhurst](https://books.google.com/books?id=XXsAAAAAMAAJ&q=Bayhurst)  
+  Bayhurst race page 40 image-verified via snippet crops. Exposition Park, July 4, 1919, Erie Cycle Dealers' Association; not Corry. _(lane: gap-1923-1934)_
+- **Atkinson Erie Directory 1939 (setXAAAAYAAJ), in-volume search** — [https://books.google.com/books?id=setXAAAAYAAJ](https://books.google.com/books?id=setXAAAAYAAJ)  
+  p.80 Archie D Beckman clerk (text); p.479 = Keystone Erie MC clubs list; bicycles at 1802 Parade (Firestone) and 406 State. _(lane: gap-1923-1934)_
 - **LOC U.S. Telephone Directory Collection, reel usteledirec07589 (Erie 1911, 1914, 1934-1940): page images via tile.loc.gov IIIF** — [https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/)  
   About 110 image requests spaced 3 s or more apart. Covers and target cards confirm all edition dates. I read every Indian and Bayhurst listing and every Motorcycles heading on the images. Evidence crops are in evidence/*loc-erie-phonebook*. _(lane: loc-phonebooks)_
 - **LOC reel usteledirec07589 OCR (work/loc/usteledirec07589.text.json)** — [https://tile.loc.gov/storage-services/service/gdc/gdcmassbookdig/usteledirec07589/](https://tile.loc.gov/storage-services/service/gdc/gdcmassbookdig/usteledirec07589/)  
@@ -80,7 +84,7 @@ Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
   1940 ED 68-18 (847 E 7th), 1930 ED 25-25, 1940 ED 68-122 (W 25th). The ED description pages say 'NOTHING FOUND'; street lists and image arrays work. _(lane: people-bayhurst)_
 - **NARA 1940 census images T627 roll 3647 (ED 68-18) 00376-00399** — [https://catalog.archives.gov/medialz/census-1940/T627/PA/m-t0627-03647/m-t0627-03647-00396](https://catalog.archives.gov/medialz/census-1940/T627/PA/m-t0627-03647/m-t0627-03647-00396.jpg)  
   Image 00396 sheet 11A: Bayhurst at 847 E 7th, motorcycle repair shop. _(lane: people-bayhurst)_
-- **archive.org 1930 census microfilm roll 2035 (fifteenthcensus00reel2035)** — [https://archive.org/details/fifteenthcensus00reel2035/page/n803](https://archive.org/details/fifteenthcensus00reel2035/page/n803)  
+- **archive.org 1930 census microfilm roll 2035 (fifteenthcensus00reel2035)** — [https://archive.org/details/fifteenthcensus00reel2035/page/n802](https://archive.org/details/fifteenthcensus00reel2035/page/n802)  
   Leaf 0803 = ED 25-25 sheet 14B, Murphy/Bayhurst household at 847 E 7th. IIIF returned 404, so BookReaderImages.php was used. _(lane: people-bayhurst)_
 - **Burton Quinn Scott obituary, Mary E. Bayhurst Covey** — [https://www.burtonquinnscott.com/obituaries/mary-covey](https://www.burtonquinnscott.com/obituaries/mary-covey)  
   Parents Lewis J. and Elma H. Fisk Bayhurst; list of deceased brothers. _(lane: people-bayhurst)_
@@ -121,6 +125,10 @@ Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
   Reachable, but no list of directory holdings online. _(lane: directories)_
 - **WebSearch (Erie directory 1925 digitized; Charles Bayhurst Erie; Hagen holdings)** — [https://www.google.com/search?q=%22Charles+Bayhurst%22+Erie+Pennsylvania](https://www.google.com/search?q=%22Charles+Bayhurst%22+Erie+Pennsylvania)  
   Led to Masthof, The Ancestor Hunt and interment.net. No free scans of Erie directories 1915-1938. _(lane: directories)_
+- **archive.org item motorcycleillustrated (full file list)** — [https://archive.org/metadata/motorcycleillustrated](https://archive.org/metadata/motorcycleillustrated)  
+  Docs: 1905a, 1908, 1909a, 1912a/b, 1913a, 1914a, 1915b, 1916a/b, 1917a/c, 1922b/c/d only. No 1918-1921 and no 1923+ volumes (session 1). _(lane: gap-1923-1934)_
+- **Google Books SearchWithinVolume2 JSON (new method, headless Chromium)** — [https://books.google.com/books?id=R24hAAAAMAAJ&jscmd=SearchWithinVolume2&q=Erie](https://books.google.com/books?id=R24hAAAAMAAJ&jscmd=SearchWithinVolume2&q=Erie)  
+  Works; at most 3 text hits per query on snippet-view books; zeros are unreliable under soft throttling (use positive controls). _(lane: gap-1923-1934)_
 - **LOC 1911 and 1914 Erie editions (seq19-53, seq56-101), cycle and motorcycle search** — [https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=32](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=32)  
   No Motorcycles heading or Indian/Harley agency. Found LeJeal Cycle Works (1911, 1914), Gas Engine & Cycle Co. (1914) and the Erie Rubber Co. motorcycle-supplies ad (1914), all read on the images. _(lane: loc-phonebooks)_
 - **Reed, History of Erie County 1925 vol 1 (historyoferiecou01reed) djvu.txt** — [https://archive.org/download/historyoferiecou01reed/historyoferiecou01reed_djvu.txt](https://archive.org/download/historyoferiecou01reed/historyoferiecou01reed_djvu.txt)  
@@ -186,6 +194,16 @@ Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
   Queries '"Bayhurst" motorcycles', '"Indian Motorcycle Agency" "E 11th"', 'Erie city directory Atkinson 1925', '"Atkinson Erie Directory"': nothing relevant. Raw: lanes/directories/ia_raw.log. _(lane: directories)_
 - **Penn State University Libraries digital collections (CONTENTdm) - Erie directories** — [https://digital.libraries.psu.edu/digital/api/search/searchterm/erie%20directory/maxRecord](https://digital.libraries.psu.edu/digital/api/search/searchterm/erie%20directory/maxRecords/50)  
   Only the 1918 American Agriculturalist rural farm directory of Erie County; no city directories. _(lane: directories)_
+- **American Bicyclist and Motorcyclist on Google Books (editions of x_I6AAAAMAAJ)** — [https://books.google.com/books?q=editions:UOM39015023086989&id=x_I6AAAAMAAJ](https://books.google.com/books?q=editions:UOM39015023086989&id=x_I6AAAAMAAJ)  
+  Vols 66-82 = 1945-1961 only; nothing for the gap. _(lane: gap-1923-1934)_
+- **Motor Cycle, Motor Boat & Automobile Trade Directory (editions of on4AAAAAMAAJ)** — [https://books.google.com/books?q=editions:NYPL33433069077141&id=on4AAAAAMAAJ](https://books.google.com/books?q=editions:NYPL33433069077141&id=on4AAAAAMAAJ)  
+  1909-1911 only. _(lane: gap-1923-1934)_
+- **Chilton Automobile Directory 1924-32 / Automobile Trade Directory to 1922** — [https://books.google.com/books?id=filPMgm9zkUC](https://books.google.com/books?id=filPMgm9zkUC)  
+  Manufacturers' buyers' guides (format image-checked in session 2); no dealers by town. _(lane: gap-1923-1934)_
+- **Automotive Daily News 1925-1940 (archive.org pub_automotive-news)** — [https://archive.org/search?query=collection%3Apub_automotive-news](https://archive.org/search?query=collection%3Apub_automotive-news)  
+  Full-text search: Indian appears only as stock and corporate news; no Erie dealer item; 'Bayhurst' 0 issues. _(lane: gap-1923-1934)_
+- **LOC Erie phone-book OCR (local), 1920 cycle-dealer names, Furlong and Shannon** — [https://www.loc.gov/item/usteledirec07589/](https://www.loc.gov/item/usteledirec07589/)  
+  Wickles Jno E wheel toys 657 W 18th (1934). No Furlong. Lester E Shannon residences only. No E 10th motorcycle business. _(lane: gap-1923-1934)_
 - **LOC Erie telephone directories 1915-1933** — [https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=11](https://www.loc.gov/resource/gdcmassbookdig.usteledirec07589/?sp=11)  
   The reel index (seq11) lists only 1911, 1914 and 1934-1940 for Erie. The 1920s cannot be tested from LOC. _(lane: loc-phonebooks)_
 - **Nelson's Biographical Dictionary of Erie County 1896 (nelsonsbiog00whit)** — [https://archive.org/download/nelsonsbiog00whit/nelsonsbiog00whit_djvu.txt](https://archive.org/download/nelsonsbiog00whit/nelsonsbiog00whit_djvu.txt)  
@@ -267,6 +285,8 @@ Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
   curl 403; WebFetch empty. _(lane: directories)_
 - **Erie Society for Genealogical Research - Hagen holdings page** — [https://www.genealogyerie.org/p/Hagen-History-Center-Holdings](https://www.genealogyerie.org/p/Hagen-History-Center-Holdings)  
   Page needs JavaScript; curl got an empty shell. One attempt. _(lane: directories)_
+- **HathiTrust (babel)** — [https://babel.hathitrust.org/](https://babel.hathitrust.org/)  
+  IP-blocked (per ACCESS.md); manual steps M7 and M8. _(lane: gap-1923-1934)_
 - **oldindiandealers.com** — [https://www.oldindiandealers.com](https://www.oldindiandealers.com)  
   Unreachable (per ACCESS.md). No mirror found; web.archive.org blocked here. _(lane: local-history)_
 - **Hagen PastPerfect online catalog** — [https://eriehistory.catalogaccess.com/](https://eriehistory.catalogaccess.com/)  
@@ -329,7 +349,7 @@ Totals: 50 hit, 25 partial, 40 miss, 31 blocked (146 entries).
 ## BROAD SWEEP "anything Indian motorcycle in Erie" (orchestrator, 4 Oct 2026)
 
 - **Motorcycle & Bicycle Illustrated, 10 Aug 1922, p.39** — [archive.org leaf 305](https://archive.org/details/motorcycleillustrated/motorcycleillustrated1922c/page/n305) — **hit**: "Frank J. Weschler Heads Hendee Co.", "in his native town of Erie, Pa." (image).
-- **Western Massachusetts: A History 1636-1925, v.4 (1926), p.799** — [archive.org leaf 591](https://archive.org/details/westernmassachus04lock/page/n591) — **hit**: Weschler born Erie 6 Mar 1883; Indian president 1923 (image).
+- **Western Massachusetts: A History 1636-1925, v.4 (1926), p.799** — [archive.org leaf 591](https://archive.org/details/westernmassachus04lock/page/799) — **hit**: Weschler born Erie 6 Mar 1883; Indian president 1923 (image).
 - **Springfield, MA city directories 1915, 1923 (archive.org full text)** — [1915](https://archive.org/details/springfieldcityd1915spri) · [1923](https://archive.org/details/springfieldwests1923spri) — **hit**: Weschler's Hendee/Indian offices (text).
 - **Google Books feed: Weschler / Erie / Indian** — **hit** (snippets): Iron Age 1927 (resigned to Baldwin Chain), Iron Trade Review 1927, History of Massachusetts Industries 1930, Reed 1925 (a Weschler brother in Erie).
 - **Google Books feed: Erie race meet 1920** — **partial**: "Erie, Pa., race meet at Exposition grounds half-mile track. Erie Exposition Association, promoters" (snippet; the "Indian Motorcycle Club" in that list is Hammond, Ind.).
